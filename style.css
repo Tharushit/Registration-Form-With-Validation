@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(edu.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to right,#a1aaa2,#454946);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    border-radius: 10px;
+}
+
+.form input[type=text],input[type=date],input[type=password]{
+    font-family: 'Times New Roman', Times, serif;
+    outline: 1;
+    background: #f7f3f3;
+    width: 100%;
+    height: 35px;
+    border: 0;
+    margin: 0 0 15px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: block;
+}
+
+.form input[type="submit"]{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    outline: 5;
+    background: linear-gradient(to left,#05d324,#6bf787);
+    width: 100%;
+    padding: 10px;
+    color: #fffafa;
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 0;
+    border-radius: 30px;
+    text-align: center;
+    display: block;
+}
+
+
+.form input[type=checkbox]{
+    cursor: pointer;
+    outline: 1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0 0 5px;
+    border: 5;
+    display: block;
+}
+
+
+.form input[type="submit"]:hover,.form input[type="submit"]:active{
+    background: #bd5231;
+    cursor: pointer;
+}
+
+
+.form .message{
+    margin: 15px 0 0;
+    color: rgb(48, 35, 226);
+    font-size: 12px;
+}
+
+.form .message a{
+    color: #022186;
+    text-decoration: none;
+}
+
+.error {
+    color: #ee2626;
+}
+
+.success {
+    color: #0630bb;
+}
+
+.validation {
+    display: none;
+}
